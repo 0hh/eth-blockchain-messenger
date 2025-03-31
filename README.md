@@ -1,2 +1,2 @@
-# eth-blockchain-messenger
-Simple Blockchain Messenger
+# Blockchain Messenger
+### Simple Blockchain Messenger
