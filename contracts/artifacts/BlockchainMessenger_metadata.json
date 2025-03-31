@@ -52,9 +52,22 @@
 						"type": "string"
 					}
 				],
-				"name": "updateMessage",
+				"name": "updateMessageByOwnership",
 				"outputs": [],
 				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_newMessage",
+						"type": "string"
+					}
+				],
+				"name": "updateMessageByPayment",
+				"outputs": [],
+				"stateMutability": "payable",
 				"type": "function"
 			}
 		],
@@ -86,11 +99,11 @@
 	},
 	"sources": {
 		"contracts/messenger.sol": {
-			"keccak256": "0xdf8af823b09873caf8694637fe203c4d087ec7f521df93431634cf73757fe64d",
+			"keccak256": "0xbc4a25810e3773dad858d241a271fb27e3c3766648f618e4f17991c680810303",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://3ba25f497848d69d53b0294e44ec8a61d25e5fb1207f5b75d5cb5bb4afcea9e7",
-				"dweb:/ipfs/QmQtWSaGyoSx3tjjuebDDcvfNv1SsPNLWS4GMSEgoAbArR"
+				"bzz-raw://6da7a97a340fc1309574cf6c25978f8138064f68b9f50d92277ef26ba300285c",
+				"dweb:/ipfs/QmZJzdivMPW55xtinsCxzE57gGM1w1H3pWEVDgjxHEGvby"
 			]
 		}
 	},
